@@ -1,94 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 30px auto;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 body {
-    background-color:  hsl(0, 0%, 95%);;
-    line-height: 1.5;
-    font-size: 16px;
+  background-color: hsl(0, 0%, 95%);
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 h1 {
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700;
-    color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 10px;
 }
 
 p {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .wrapper {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 250px;
-    border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 50px 150px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .sedan {
-    padding: 0px 60px;
-    background: hsl(31, 77%, 52%);
-    color: #fff;
+  padding: 100px;
+  background: hsl(31, 77%, 52%);
+  color: #fff;
 }
 
 .suv {
-    padding: 0 60px;
-    background: hsl(184, 100%, 22%);
-    color: #fff;
+  padding: 100px;
+  background: hsl(184, 100%, 22%);
+  color: #fff;
 }
 
 .luxury {
-    padding: 0 60px;
-    background: hsl(179, 100%, 13%);
-    color: #fff;
+  padding: 100px;
+  background: hsl(179, 100%, 13%);
+  color: #fff;
 }
 
 .primary-btn {
-    font-family: 'Lexend Deca', sans-serif;
-    margin-top: 3rem;
-    border: none;
-    height: 50px;
-    border-radius: 50px;
-    width: 70%;
-    background: #fff;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.5s;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 3rem;
+  border: none;
+  height: 50px;
+  border-radius: 50px;
+  width: 70%;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 .one {
-    color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
 }
 
 .two {
-    color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
 }
 
 .three {
-    color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
 }
 
 .one:hover {
-    background-color: hsl(31, 77%, 52%);
-    border: #fff solid;
-    color: #fff;
+  background-color: hsl(31, 77%, 52%);
+  border: #fff solid;
+  color: #fff;
 }
 
 .two:hover {
-    background-color: hsl(184, 100%, 22%);
-    border: #fff solid;
-    color: #fff;
+  background-color: hsl(184, 100%, 22%);
+  border: #fff solid;
+  color: #fff;
 }
 
 .three:hover {
-    background-color: hsl(179, 100%, 13%);
-    border: #fff solid;
-    color: #fff;
+  background-color: hsl(179, 100%, 13%);
+  border: #fff solid;
+  color: #fff;
 }
