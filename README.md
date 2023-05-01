@@ -4,8 +4,9 @@
     <img src="Screenshot.png">
 </div>
 
-## Built with - Semantic HTML5 markup
-               - CSS custom properties
-               - CSS Grid
+## [Built with] 
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
 
-Live Site URL: [Deployment](https://your-live-site-url.com)
+### Live Site URL: [Deployment](https://azammustafa66.github.io/3-column-preview-card-component-main/)
