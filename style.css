@@ -94,3 +94,12 @@ p {
   border: #fff solid;
   color: #fff;
 }
+
+@media screen and (max-width: 480px) and (max-width: 768px) {
+  .wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
